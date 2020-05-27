@@ -1,0 +1,24 @@
+<svg width="1021" height="680" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="682" width="1023" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="216.551727" x="1" height="400" width="580"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <style transform="matrix(0.013574435151785023,0,0,0.013574435151785023,0,0) " type="text/css">.st0{fill:#FFFFFF;}</style>
+
+  <metadata transform="matrix(0.44444129202659965,0,0,0.44444129202659965,0,0) " id="svg_31">image/svg+xml</metadata>
+  <g stroke="null" id="svg_33">
+   <g stroke="null" transform="matrix(2.512530404016444,0,0,2.320472325339513,-1104.7079233110908,-522.2592699672194) " id="svg_28">
+    <text stroke="null" font-size="400px" font-style="normal" font-weight="normal" text-anchor="start" fill="#ffffff" stroke-width="1px" font-family="Times New Roman" id="svg_29" y="463.598968" x="763.36012" xml:space="preserve">
+     <tspan stroke="null" fill="#ffffff" text-anchor="middle" y="463.598968" x="763.36012" id="svg_30">ε</tspan>
+    </text>
+   </g>
+  </g>
+ </g>
+</svg>

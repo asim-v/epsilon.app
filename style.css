@@ -1,0 +1,72 @@
+
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+h1 {
+  z-index: 3;
+  position: absolute;
+  right: 10px;
+  font-size: 50px;
+  letter-spacing: -2px;
+}
+code {
+  z-index: 5;
+  max-width: 420px;
+  max-height: 70vh;
+  padding: 16px 32px 16px 48px;
+  background-color: #234;
+  font-family: monospace;
+  border-radius: 2px;
+  box-shadow: 0 4px 7px -2px rgba(0,0,0,0.4);
+  outline: none;
+  counter-reset: step;
+  overflow-y: auto;
+}
+code::-webkit-scrollbar {
+  width: 6px;
+}
+code::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+}
+p {
+  display: block;
+  position: relative;
+  line-height: 16px;
+  white-space: pre-wrap;
+}
+p::before {
+  content: counter(step);
+  counter-increment: step;
+  position: absolute;
+  right: calc(100% + 16px);
+  color: #678;
+}
+code .js1 {
+  color: #e68;
+}
+code .js2 {
+  color: #7ff;
+  font-style: italic;
+}
+code .js-num {
+  color: #a7c;
+}
+code .func-name {
+  color: #6e6;
+}
+code .string,
+code .string * {
+  color: #ffd658;
+}
+code .func-args,
+code .func-args * {
+  color: #ffa500;
+}
+code .comment,
+code .comment * {
+  color: #999;
+}
